@@ -1,5 +1,25 @@
-
+body{
+    background-color: blue;
+    font-family: Arial, Helvetica, sans-serif;
+}
 nav{
     max-width: 200px;
     width: 100%;
+}
+nav ul{
+    list-style-type: none;
+}
+
+nav ul li a{
+    background-color: rgb(80, 80, 80);
+    color: yellow;
+    padding: 10px;
+    display: block;
+    text-decoration: none;
+    text-transform: uppercase;
+    text-align: center;
+    transition: background .3s;
+}nav ul li a:hover{
+    background-color: rgb(122, 122, 122);
+    color: green;
 }
