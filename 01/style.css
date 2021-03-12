@@ -1,0 +1,23 @@
+/*config. menu*/
+body{background-color: #ccc;}
+nav{
+    max-width: 200px;
+    width: 100%;
+}nav ul li{
+    list-style-type: none;
+    padding: 0;
+}.menu ul li{
+    border-bottom: 1px solid #ccc;
+}.menu a{
+    text-align: center;
+    background-color: rgb(70, 69, 69);
+    color: #ccc;
+    padding: 20px;
+    display: block;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: background 3.s;
+}.menu a:hover{
+    background-color: rgb(121, 120, 120);
+    color:  green;
+}
