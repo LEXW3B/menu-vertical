@@ -9,8 +9,7 @@ body{
     background-color: rgb(105, 104, 104);
 }
 /*header ou cabeçalho*/
-header{
-    
+header{    
     background-color: orange;
     max-width: 100%;
     width: 100%;
@@ -20,28 +19,25 @@ header{
 }
 header h1{
     line-height: 300px;
-}.brasao{
+}
+.brasao{
     position: relative;
     display: block;
     top: -245px;
     left: -10px;
 }
-
 /*menu*/
 nav{
     position: relative;
     display: inline;
     top: 105px;
     float: left;
-    left: 0;
-    
+    left: 0;    
 }
-
 body nav{
     max-width: 200px;
     width: 100%;
-    font-family: Arial, Helvetica, sans-serif;
-    
+    font-family: Arial, Helvetica, sans-serif;    
 }
 nav ul{
     list-style-type: none;
@@ -70,8 +66,7 @@ main{
     border: 2px solide red;
     display: inline-block;
     background: rgb(105, 104, 104);
-    text-align: center;
-    
+    text-align: center;    
 }
 section{
     float: inherit;
@@ -89,14 +84,11 @@ section p{
     text-align: center;
     margin: 50px;
     padding-left: -45px;
-
-
 }div{
     position: relative;
     display: block;
     left: 560px;
 }
-
 footer{
     max-width: 100%;
     width: 100%;
