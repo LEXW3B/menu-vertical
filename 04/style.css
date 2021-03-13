@@ -1,0 +1,92 @@
+
+/*conf. inicial*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/*header ou cabeçalho*/
+header{
+    background-color: orange;
+    height: 300px;    
+    text-align: center;
+    position: relative;
+}
+header h1{
+    line-height: 300px;
+}
+
+/*menu*/
+nav{
+    position: relative;
+    float: left;
+    left: 0;
+    
+}
+
+body nav{
+    max-width: 200px;
+    width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+nav ul{
+    list-style-type: none;
+}
+nav ul li{
+    border-bottom: 1px solid rgb(248, 95, 24);
+}
+nav ul li a{
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 10px;
+    background-color: rgb(3, 43, 175);
+    color: rgb(250, 206, 124);
+    display: block;
+    text-align: center;
+    transition: background .3s;
+}nav ul li a:hover{
+    background-color: rgb(34, 68, 177);
+    color: rgb(248, 95, 24);
+}/*fim de menu*/
+main{
+    height: 100%;
+    width: 100%;
+    margin: 10px;
+    padding: 10px;
+    border: 2px solide red;
+    display: inline-block;
+    background: #eee;
+    text-align: center;
+    
+}
+section{
+    float: inherit;
+}
+section ol{
+    width: 200px;
+    border: 2px solid grey;
+    background: green;
+    text-align: center;
+
+}
+section p{
+    width: 80%;
+    text-align: center;
+    margin: 50px;
+    padding-left: -45px;
+
+
+}div{
+    float: inherit;
+}
+
+footer{
+    max-width: 100%;
+    width: 100%;
+    background-color: black;
+    color: white;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+}
